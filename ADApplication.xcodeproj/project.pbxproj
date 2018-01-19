@@ -26,6 +26,7 @@
 		A1C8F7EA2011E04900AD9643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1C8F7EC2011E04900AD9643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1C8F7ED2011E04900AD9643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1C8F89F2011E67700AD9643 /* ADApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADApplication.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		A1C8F7DD2011E04900AD9643 /* ADApplication */ = {
 			isa = PBXGroup;
 			children = (
+				A1C8F89E2011E66700AD9643 /* ADApplication */,
 				A1C8F7DE2011E04900AD9643 /* AppDelegate.h */,
 				A1C8F7DF2011E04900AD9643 /* AppDelegate.m */,
 				A1C8F7E12011E04900AD9643 /* ViewController.h */,
@@ -67,6 +69,14 @@
 				A1C8F7E92011E04900AD9643 /* LaunchScreen.storyboard */,
 				A1C8F7EC2011E04900AD9643 /* Info.plist */,
 				A1C8F7ED2011E04900AD9643 /* main.m */,
+			);
+			path = ADApplication;
+			sourceTree = "<group>";
+		};
+		A1C8F89E2011E66700AD9643 /* ADApplication */ = {
+			isa = PBXGroup;
+			children = (
+				A1C8F89F2011E67700AD9643 /* ADApplication.h */,
 			);
 			path = ADApplication;
 			sourceTree = "<group>";
