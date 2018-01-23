@@ -26,17 +26,31 @@ PODS:
     - AFNetworking/NSURLSession
 
 DEPENDENCIES:
-  - ADHome (= 5)
-  - ADMine (= 4)
+  - ADHome (from `https://github.com/ADModulization/ADHome.git`)
+  - ADMine (from `https://github.com/ADModulization/ADMine.git`)
+
+EXTERNAL SOURCES:
+  ADHome:
+    :git: https://github.com/ADModulization/ADHome.git
+  ADMine:
+    :git: https://github.com/ADModulization/ADMine.git
+
+CHECKOUT OPTIONS:
+  ADHome:
+    :commit: 4c14803e40f9476c447ffc2bb0393db66725559e
+    :git: https://github.com/ADModulization/ADHome.git
+  ADMine:
+    :commit: 4aed023b9fb321dc3be3e7970d1237aa7fab365d
+    :git: https://github.com/ADModulization/ADMine.git
 
 SPEC CHECKSUMS:
-  ADHome: 5dbec8ef24a04d1cc092a48144c83af0efa7b1da
+  ADHome: 491c73cb6414787be9fa47f1923b6f88f2bf4e3f
   ADMediator: 022e97e3d922a96e285666449487899e6df1ebc3
   ADMediatorCategory: e866d11fee8c533ac30dde1b9051134f695519b9
-  ADMine: b97f475287f8f908d5789c6f0996f3961400f4a7
+  ADMine: 552d801306e075bd4b178fdf12cf72b9c54ddc75
   ADNetworking: 76f7058e86a86b209b322367f29a3212cba043fd
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
 
-PODFILE CHECKSUM: 8a20ed5ce0a8d873db1f7fffb1f8ee5b2a3a945e
+PODFILE CHECKSUM: 329d3f0db653913797ecbfcaffc82597205864ec
 
 COCOAPODS: 1.4.0.rc.1

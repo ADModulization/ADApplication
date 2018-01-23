@@ -1,0 +1,28 @@
+{
+  "name": "ADMine",
+  "version": "4",
+  "summary": "ADMine.",
+  "description": "this is ADMine",
+  "homepage": "https://github.com/ADModulization/ADMine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "naibin": "binjiayou66@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/ADModulization/ADMine.git",
+    "tag": "4"
+  },
+  "source_files": "ADMine/ADMine/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "ADNetworking": [
+
+    ]
+  }
+}

@@ -6,7 +6,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'ADApplication' do
   
-  pod 'ADHome', '5'
-  pod 'ADMine', '4'
+  pod 'ADHome', :git => 'https://github.com/ADModulization/ADHome.git'
+  pod 'ADMine', :git => 'https://github.com/ADModulization/ADMine.git'
  
 end

@@ -1,0 +1,31 @@
+{
+  "name": "ADHome",
+  "version": "5",
+  "summary": "ADHome.",
+  "description": "this is ADHome",
+  "homepage": "https://github.com/ADModulization/ADHome",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "naibin": "binjiayou66@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/ADModulization/ADHome.git",
+    "tag": "5"
+  },
+  "source_files": "ADHome/ADHome/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "ADNetworking": [
+
+    ],
+    "ADMediatorCategory": [
+
+    ]
+  }
+}
