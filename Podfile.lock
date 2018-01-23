@@ -1,0 +1,36 @@
+PODS:
+  - ADHome (2):
+    - ADNetworking
+  - ADMine (2):
+    - ADNetworking
+  - ADNetworking (3):
+    - AFNetworking
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+
+DEPENDENCIES:
+  - ADHome
+  - ADMine
+
+SPEC CHECKSUMS:
+  ADHome: a13b89885fd9c3b9171a56233322f7b80fbb50c9
+  ADMine: 6a7c6422a9c2d3af04aa6998cf95e35700d43ded
+  ADNetworking: 76f7058e86a86b209b322367f29a3212cba043fd
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+
+PODFILE CHECKSUM: c4e8d7e059caa7349d328d55bef9abf3e1135829
+
+COCOAPODS: 1.4.0.rc.1

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <ADHomeViewController.h>
+#import <ADMineViewController.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +18,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+    
+    UITabBarController *tab = [[UITabBarController alloc] init];
+    
+    ADHomeViewController *homeVC = [[ADHomeViewController alloc] init];
+    UINavigationController *homeNavi = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    ADMineViewController *mineVC = [[ADMineViewController alloc] init];
+    UINavigationController *mineNav = [[UINavigationController alloc] initWithRootViewController:mineVC];
+    
+    tab.viewControllers = @[homeNavi, mineNav];
+    _window.rootViewController = tab;
+    
     return YES;
 }
 

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADApplication"
-  s.version      = "1"
+  s.version      = "2"
   s.summary      = "ADApplication."
   s.description  = <<-DESC
                     this is ADApplication
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "naibin" => "binjiayou66@163.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "git@github.com:ADModulization/ADApplication.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/ADModulization/ADApplication.git", :tag => s.version.to_s }
 
   s.source_files  = "ADApplication/ADApplication/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
   s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "CTNetworking"
-  # s.dependency "CTAPIManagers"
+  s.dependency "ADHome"
+  s.dependency "ADMine"
   # s.dependency "CTMediator"
+  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
 end
